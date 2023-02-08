@@ -15,6 +15,8 @@ const Home = () => {
       <Link href="/product">product</Link>
       <br />
       <button onClick={handleClick}>Place Order</button>
+      <Link href="/dashboard">Not found</Link> <br />
+
     </>
   );
 };
