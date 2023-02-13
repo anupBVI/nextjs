@@ -15,7 +15,15 @@ const Home = () => {
       <Link href="/product">product</Link>
       <br />
       <button onClick={handleClick}>Place Order</button>
-      <Link href="/dashboard">Not found</Link> <br />
+      <Link href="/dashboard">Not found</Link> <br /><br /><br />
+      <Link href="/users"> <h2>Users</h2> </Link> <br />
+
+      <Link href="/posts">
+        Posts
+      </Link>
+    
+
+
 
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import User from './../components/user';
+import User from "./../components/user";
 let url = "https://jsonplaceholder.typicode.com/users";
 
 function Users({ users }) {
@@ -22,7 +22,7 @@ export default Users;
 export async function getStaticProps() {
   const response = await fetch(url);
   const data = await response.json();
-  console.log(data);
+  // console.log(data);
   return {
     props: {
       users: data,

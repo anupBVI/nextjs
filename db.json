@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "sports Festival",
+      "description": "Join us for a day filled with live sports, food, and drinks!",
+      "date": "2023-06-12",
+      "category": "sports"
+    },
+    { 
+      "id": 2,
+      "title": "Art Exhibition",
+      "description": "Explore the works of local artists and find your next favorite piece!",
+      "date": "2023-05-23",
+      "category": "sports"
+    },
+    {
+      "id": 3,
+      "title": "Food and Wine Festival",
+      "description": "Sample cuisine from the best local restaurants and enjoy a variety of wines!",
+      "date": "2023-07-10",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 4,
+      "title": "Theater Performance",
+      "description": "Experience the magic of live theater with this must-see performance!",
+      "date": "2023-08-15",
+      "category": "Theater"
+    },
+    {
+      "id": 5,
+      "title": "Comedy Night",
+      "description": "Laugh the night away with some of the best comedians in town!",
+      "date": "2023-09-20",
+      "category": "sports"
+    },
+    {
+      "id": 6,
+      "title": "Outdoor Adventure",
+      "description": "Join us for a day of outdoor activities including hiking, camping, and more!",
+      "date": "2023-10-30",
+      "category": "Outdoor"
+    },
+    {
+      "id": 7,
+      "title": "Book Club Meeting",
+      "description": "Discuss your favorite books with like-minded individuals at this monthly book club!",
+      "date": "2023-11-12",
+      "category": "Literature"
+    },
+    {
+      "id": 8,
+      "title": "Film Screening",
+      "description": "Watch the latest films on the big screen and experience the magic of the movies!",
+      "date": "2023-12-25",
+      "category": "Film"
+    },
+    {
+      "id": 9,
+      "title": "Sports Competition",
+      "description": "Join us for a day of friendly competition and sportsmanship!",
+      "date": "2023-01-01",
+      "category": "sports"
+    },
+    {
+      "id": 10,
+      "title": "Food Truck Rally",
+      "description": "Sample the best food from local food trucks and enjoy live sports and drinks!",
+      "date": "2023-02-14",
+      "category": "Food & Drink"
+    }
+  ],
+
+  "dashboard": {
+    "posts": 5,
+    "likes": 50,
+    "followers": 20,
+    "following ": 50
+  },
+
+  "news": [
+    {
+      "id": 1,
+      "title": "News Article 1",
+      "description": "description 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News Article 2",
+      "description": "description 2",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "title": "News Article 3",
+      "description": "description 3",
+      "category": "technology"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "title 1",
+      "price": 1000,
+      "description": "description 1"
+    },
+    {
+      "id": 2,
+      "title": "title 2",
+      "price": 1500,
+      "description": "description 2"
+    },
+    {
+      "id": 3,
+      "title": "title 3",
+      "price": 3000,
+      "description": "description 3"
+    }
+  ]
+}
