@@ -37,35 +37,15 @@ function Comments() {
     fetchComments();
   };
 
-  const editComment = async (id) => {
-    setEdit(true);
-    setIdToEdit(id);
-    const name = cData.find((comment) => comment.id === id);
-    console.log(name);
-    setComment(name.comment);
-  };
+ 
 
-  const editComment2 = async () => {
-    const res = await fetch(`/api/comments/${idToEdit}`, {
-      method: "PUT",
-      body: JSON.stringify({ comment }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const data = await res.json();
-    console.log(data);
-    // console.log("edit submit", idToEdit);
-  };
+
 
   return (
     <div>
       <input type="text" value={comment} onChange={handleChange} />
-      {edit ? (
-        <button onClick={editComment2}> Edit Comment </button>
-      ) : (
-        <button onClick={postComment}> Add Comment </button>
-      )}
+      <button onClick={postComment}> Add Comment </button>
+      
       <button onClick={fetchComments}> Fetch Comments</button>
       <br />
       <br />

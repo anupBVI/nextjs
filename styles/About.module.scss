@@ -1,0 +1,36 @@
+@import "colors";
+
+.highlightScss {
+  color: $pink;
+}
+
+.wrapper {
+  padding: 12px;
+  border: 1px solid green;
+  .container {
+    padding: 12px;
+    border: 1px solid green;
+    .innerWrapper {
+      padding: 12px;
+      border: 1px solid green;
+      .innerContainer {
+        padding: 12px;
+        border: 1px solid green;
+        .heading {
+          color: red;
+        }
+        .paragraph {
+          color: gray;
+        }
+        .btn {
+          background: #000;
+          color: white;
+          &:hover {
+            background: #ffffff;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}

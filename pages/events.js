@@ -20,7 +20,7 @@ function EventsList({ eventList }) {
       <br />
       {events.map((item) => {
         return (
-          <div>
+          <div key={item.id}>
             <h3>
               {item.id} {item.title} | {item.category}{" "}
             </h3>
@@ -45,6 +45,10 @@ export async function getServerSideProps(context) {
   const response = await fetch(`http://localhost:4000/events?${queryString}`);
   const data = await response.json();
 
+  const user = process.env.DB_USER
+  const password = process.env.DB_PASSWORD
+
+  console.log(`connecting to database with ${user} and password ${password}`)
   return {
     props: {
       eventList: data,

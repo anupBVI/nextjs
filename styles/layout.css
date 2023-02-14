@@ -1,0 +1,15 @@
+.layout-header {
+    padding: 30px;
+    font-size: 30px;
+    background-color: #17526b;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.layout-footer {
+  padding: 20px;
+  font-size: 30px;
+  background-color: #17526b;
+  color: antiquewhite;
+  text-align: center;
+}
